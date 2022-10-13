@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('get-ip-details', function () {
+Route::get('get_ip_details', function () {
 	$ip = '157.180.220.120';
     $data = \Location::get($ip);
     dd($data);
