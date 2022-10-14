@@ -5,7 +5,7 @@
 ## Packages
 
 
-- composer require stevebauman/location
+- Run -> composer require stevebauman/location
 - In config/app.php file add this ->
 
 'providers' => [
@@ -24,7 +24,7 @@
 
 ]
 
-- php artisan vendor:publish
+- Run -> php artisan vendor:publish
 
 ## Output
 
