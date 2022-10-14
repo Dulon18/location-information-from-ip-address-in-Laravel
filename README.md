@@ -6,7 +6,8 @@
 
 
 - composer require stevebauman/location
-- 
+- In config/app.php file add this ->
+
 'providers' => [
 
 	....
